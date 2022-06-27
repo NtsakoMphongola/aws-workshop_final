@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsworkshop-dev-100140-authRole",
+      "UnauthRoleArn": "arn:aws:iam::734769706552:role/amplify-awsworkshop-dev-100140-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::734769706552:role/amplify-awsworkshop-dev-100140-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-awsworkshop-dev-100140-deployment",
+      "UnauthRoleName": "amplify-awsworkshop-dev-100140-unauthRole",
+      "StackName": "amplify-awsworkshop-dev-100140",
+      "StackId": "arn:aws:cloudformation:eu-west-1:734769706552:stack/amplify-awsworkshop-dev-100140/6288bcc0-f5ef-11ec-9661-02cc8b5c2e11",
+      "AmplifyAppId": "d3hh9eyr8ls6dx"
+    }
+  },
+  "auth": {
+    "awsworkshop0c978f61": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-awsworkshop-dev-100140-deployment/amplify-cfn-templates/auth/awsworkshop0c978f61-cloudformation-template.json",
+        "logicalId": "authawsworkshop0c978f61"
+      },
+      "lastPushTimeStamp": "2022-06-27T08:06:58.119Z",
+      "output": {
+        "UserPoolId": "eu-west-1_FBJSaQg90",
+        "AppClientIDWeb": "1h2181ger7ku7l3r44pp0c2moj",
+        "AppClientID": "6dmmsqol6ma629ufk7f9oihrq8",
+        "IdentityPoolId": "eu-west-1:86f8e4e4-3439-417c-be9e-cffd24226358",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-west-1:734769706552:userpool/eu-west-1_FBJSaQg90",
+        "IdentityPoolName": "awsworkshop0c978f61_identitypool_0c978f61__dev",
+        "UserPoolName": "awsworkshop0c978f61_userpool_0c978f61"
+      },
+      "lastPushDirHash": "nuZfMU1cQY7+KLHmyImgDrA2ykU="
+    }
+  }
+}
