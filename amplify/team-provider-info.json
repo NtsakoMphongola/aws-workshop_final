@@ -16,5 +16,18 @@
         "awsworkshop0c978f61": {}
       }
     }
+  },
+  "workshop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsworkshopfinal-workshop-105825-authRole",
+      "UnauthRoleArn": "arn:aws:iam::033602172252:role/amplify-awsworkshopfinal-workshop-105825-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::033602172252:role/amplify-awsworkshopfinal-workshop-105825-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-awsworkshopfinal-workshop-105825-deployment",
+      "UnauthRoleName": "amplify-awsworkshopfinal-workshop-105825-unauthRole",
+      "StackName": "amplify-awsworkshopfinal-workshop-105825",
+      "StackId": "arn:aws:cloudformation:eu-west-1:033602172252:stack/amplify-awsworkshopfinal-workshop-105825/74fb7c60-099c-11ed-9326-067d86d593bd",
+      "AmplifyAppId": "d2c4jvq47j8qc4"
+    }
   }
 }
